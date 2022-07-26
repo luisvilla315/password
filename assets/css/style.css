@@ -1,0 +1,113 @@
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+.card-body {
+  min-height: 100px;
+}
+
+body {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: #010a00;
+        background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+        font-family: -apple-system, 
+          BlinkMacSystemFont, 
+          "Segoe UI", 
+          Roboto, 
+          Oxygen-Sans, 
+          Ubuntu, 
+          Cantarell, 
+          "Helvetica Neue", 
+          sans-serif;
+        font-size: 1rem;
+  }
+  .h1{
+    color: rgb(4, 221, 0);
+    text-shadow: chartreuse;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 50px;
+    color: rgb(4, 221, 0);
+    text-shadow: chartreuse;
+
+  }
+  .card-body {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    color: hsl(206, 17%, 28%);
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 40px;
+  }
+  
+  
+  button {
+        --c: rgb(0, 156, 55);
+        color: var(--c);
+        font-size: 16px;
+        border: 0.3em solid var(--c);
+        border-radius: 0.5em;
+        width: 12em;
+        height: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 0.1em;
+        text-align: center;
+        line-height: 1em;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: 0.5s;
+        margin: 1em;
+    }
+  .container {
+    display: block;
+    margin: 80px auto;
+    text-align: center;
+    box-shadow: rgb(1, 68, 9) 0px 20px 30px -10px;
+    transition: 0.3s;
+    width: 60vw;
+    background-color: #ffffff;
+  }
+  
+  .neon {
+    color: rgb(1, 68, 9) 0px 20px 30px -10px;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px rgb(4, 221, 0),
+      0 0 40px rgb(0, 152, 83),
+      0 0 80px rgb(2, 162, 162),
+      0 0 90px rgb(0, 159, 159),
+      0 0 100px rgb(0, 107, 107),
+      0 0 150px rgb(0, 123, 123);
+  }
+
+
+  @media (max-width: 690px) {
+    .btn {
+      font-size: 1rem;
+      margin: 16px 0px 0px 0px;
+      padding: 10px 15px;
+    }
+  
+    #password {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .btn {
+      font-size: 0.8rem;
+    }
+  }
+  
